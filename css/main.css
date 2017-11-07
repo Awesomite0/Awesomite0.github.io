@@ -1,0 +1,129 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+body{
+	background-color: #FAAA40;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14pt;
+	font-weight: regular;
+}
+
+* {
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+}
+
+.navButton {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1001;
+	padding: .5em;
+	background-color: #333;
+	border: solid #aaa;
+	border-width: 0 0 1px;
+}
+
+.navButton a {
+	color: #eee;
+	text-decoration: none;
+	padding: 0 0 0 .5em;
+}
+
+i {
+ 	font-size: 1em;
+ 	color: #eee;
+ 	padding: 0 1em 0 0;
+ 	transition: color .5s;
+ }
+
+i:hover {
+ 	color: #333;
+ }
+
+ #nav {
+ 	position: fixed;
+ 	top: 2em;
+ 	left: -72%;
+ 	width: 72%;
+ 	margin: 0;
+ 	height: 100%;
+ 	background-color: #333;
+ 	background-color: rgba(0,0,0,.84);
+ 	transition: left .5s;
+}
+
+#nav:target {
+	left: 0;
+}
+
+nav {
+	z-index: 1000;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	margin-top: .5em;
+}
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+
+nav li a {
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+	transition: all .5s;
+}
+
+nav li a:hover {
+	color: #eee;
+	text-decoration: none;
+	background-color: #eee;
+	color: #333;
+}
+
+/* produces a blank line in mobile nav, but is
+hidden when on wider screens. */
+.hiddenLink {
+	display: block;
+}
+#nav {
+	margin-left: 20px;
+	width: 100%;
+	padding: none;
+	list-style: none;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15pt;
+	font-weight: lighter;
+}
+
+#nav li {
+	min-width: 10px;
+	max-width: 40px;
+	float: left;
+	padding: 3.35em;
+	}
+
+#nav li a {
+	font-size: 26pt;
+	text-decoration: none;
+	text-orientation: horizontal;
+	color: white;
+	}
+
+img {
+	max-height: 400px;
+	max-width: 400px;
+	object-position: center;
+}
+
+p {
+	max-height: 400px;
+	max-width: 400px;
+}
